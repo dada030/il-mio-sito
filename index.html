@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La mia prima pagina</title>
+  <style>
+    :root {
+      --verde: #2f6f4e;
+      --verde-chiaro: #e8f3ec;
+      --testo: #1f2a24;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--testo);
+      background: #fafaf7;
+      line-height: 1.6;
+    }
+    header {
+      background: var(--verde);
+      color: white;
+      padding: 3rem 1.5rem;
+      text-align: center;
+    }
+    header h1 { margin: 0 0 0.5rem; font-size: 2.2rem; }
+    header p { margin: 0; opacity: 0.9; }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+    section {
+      background: white;
+      border-left: 5px solid var(--verde);
+      border-radius: 6px;
+      padding: 1.2rem 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+    }
+    h2 { margin-top: 0; color: var(--verde); }
+    ul { padding-left: 1.2rem; }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+      color: #667;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ciao, benvenuto! 👋</h1>
+    <p>Studente di Scienze e Tecnologie per l'Ambiente e la Natura</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Chi sono</h2>
+      <p>
+        Sono originario di Belluno e studio all'Università di Trieste.
+        Questa è la mia prima pagina web, pubblicata con GitHub Pages.
+      </p>
+    </section>
+
+    <section>
+      <h2>Le mie passioni</h2>
+      <ul>
+        <li>⚽ Il calcio</li>
+        <li>🍽️ La ristorazione, in particolare cucina e servizio</li>
+        <li>🌿 L'ambiente e la natura</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Cosa sto imparando</h2>
+      <p>
+        Le basi di GitHub, Markdown e HTML. Qui aggiungerò man mano
+        i miei progetti, appunti e ricette.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    Fatto con HTML e GitHub Pages
+  </footer>
+</body>
+</html>
